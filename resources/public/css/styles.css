@@ -1,0 +1,93 @@
+html, body {
+  color: black;
+  font-size: small;
+  font-family: Georgia, serif;
+}
+
+body {
+  background: #18218c url(/img/page-bg.gif) repeat-x scroll center top;
+  text-align: center;
+}
+
+#center {
+  background-color: white;
+  width: 445px;
+  margin: 30px auto;
+  padding-bottom: 15px;
+  border: 2px solid #3a3a3a;
+  -moz-border-radius:8px;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.subscribe {
+  margin-top: 0;
+  font-family: Georgia, serif;
+  font-size: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus,a:hover {
+  text-decoration: underline;
+}
+
+.subscribe img {
+  border: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+li.current_quote {
+  font-size: 2em;
+}
+
+li.past_quote {
+  font-size: 1.5em;
+}
+
+blockquote {
+  width: 400px;
+  margin: 0 auto 0 auto;
+  text-align: left;
+
+  text-indent: 35px;
+  background: url(/img/quotes1.png);
+  background-position: 0 5px;
+  background-repeat: no-repeat;
+}
+
+blockquote p {
+  line-height: 1.8;
+  margin: 0;
+
+  display: inline;
+  padding-right: 35px;
+  background: url(/img/quotes2.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+#add_quote {
+  border: 1px solid #000;
+  margin: 0 auto 0 auto;
+  width: 22em;
+  padding: 10px;
+  margin-top: 3em;
+}
+
+img {
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+form {
+  text-align: left;
+}
