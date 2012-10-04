@@ -18,6 +18,6 @@ http://quotes-clj.herokuapp.com
 lein deps
 export DATABASE_USER=<postgres user>
 export DATABASE_PASSWORD=<postgres password>
-export DATABASE_SUBNAME=<postgres database name>
+export DATABASE_SUBNAME=<//<hostname>:<port>/<database name>
 lein run
 ```
